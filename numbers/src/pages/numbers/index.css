@@ -1,0 +1,61 @@
+.numbersPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;}
+
+.boxWrapper {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black
+}
+
+.boxTopRow {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: end;
+}
+  
+.numbersBox { 
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+}
+
+.numbersCell {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    color: white;
+    padding: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+}
+
+.blue {
+    background-color: rgb(0, 71, 171);
+}
+
+.green {
+    background-color: rgb(0, 171, 43);
+}
+
+.removeCell {
+    visibility: hidden;
+}
+
+.restartButton {
+    background-color: rgb(0, 71, 171);
+    border-radius: 5px;
+    border: 1px solid rgb(10, 35, 71);
+    color: white;
+    cursor: pointer;
+    padding: 8px 16px;
+    box-shadow: 1px 2px rgb(0, 71, 171, 0.4);
+}
+.restartButton:hover{
+    opacity: 0.7;
+}
+
